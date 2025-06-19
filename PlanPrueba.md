@@ -65,9 +65,9 @@ Se valida que no existan propiedades que solo deberían estar en respuestas exit
     *expect(response.body).to.not.have.property("name");*
 
 
-**Posible integraciones con CI/CD **
+**Posible integraciones con CI/CD**
 
-    Se podría integrar fácilmente en una pipeline automatizada para garantizar la calidad continua. Por ejemplo:
+Se podría integrar fácilmente en una pipeline automatizada para garantizar la calidad continua. Por ejemplo:
 
 **Herramientas:**
 
@@ -83,9 +83,16 @@ Se valida que no existan propiedades que solo deberían estar en respuestas exit
 **Estructura del proyecto:**
 
 TESTRUNA/
+
 ├── do
+
 ├── cypress/
+
 │   └── e2e/
+
 │       └── weather_api.cy.js   # Tests automatizados
+
 ├── package.json                # Configuración de proyecto y dependencias
+
 ├── README.md                   # Documentación y setup
+
