@@ -33,24 +33,46 @@ Desde Visual Studio Code se debe observar la siguiente estructura:
 
 **Nombre de Carpeta creada**
 
-       cypress
+├── cypress
 
-           downloads
+   ├── downloads
 
-           e2e
+   │   └── e2e
 
-              Test.cy.js
+   │       └── Test.cy.js
+   
+   │   └── fixtures
 
-           fixtures
+   │   └── support
 
-           support
+├── node_modules
 
-       node_modules
+├── cypress.config.j
 
-       cypress.config.j
+├── package-lock.json
 
-       package-lock.json
+├── package.json                
 
-       package.json
+**Nombre de Carpeta creada**
+
+       - cypress
+
+           - downloads
+
+           - e2e
+
+              - Test.cy.js
+
+           - fixtures
+
+           - support
+
+       - node_modules
+
+       - cypress.config.j
+
+       - package-lock.json
+
+       - package.json
        
 En el archivo **Test.cy.js** se agregarían los scripts de la prueba.

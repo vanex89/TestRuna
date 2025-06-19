@@ -5,25 +5,25 @@ Las pruebas están escritas en JavaScript utilizando Cypress 14.4.1 como framewo
 
 **Estructura del proyecto**
 
-📁 cypress
+ cypress
 
-│   ├── 📁 downloads
+│   ├──  downloads
 
-│   ├── 📁 e2e
+│   ├──  e2e
 
 │   │     ├── weather_api.cy.js
 
 │   │     └── weathers-Bonus.cy.js
 
-│   ├── 📁 fixtures
+│   ├──  fixtures
 
-│   └── 📁 support
+│   └──  support
 │
-├── 📄 cypress.config.js
+├──  cypress.config.js
 
-├── 📄 package.json
+├──  package.json
 
-└── 📄 README.md
+└──  README.md
 
 **¿Qué pruebas contiene este repositorio?**
 Las pruebas están orientadas a validar el endpoint GET /weather con distintos escenarios:
