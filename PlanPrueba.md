@@ -75,7 +75,7 @@ Se podría integrar fácilmente en una pipeline automatizada para garantizar la 
 **GitHub Actions/Jenkins:** son las herramientas de CI para correr las pruebas automáticamente.
 **Desencadenante (trigger):** cada vez que se hace push en la rama principal o PR.
 
-**Pasos de pipeline:
+**Pasos de pipeline:**
 1. Instalar dependencias (npm install).
 2. Ejecutar los tests Cypress (npx cypress run).
 3. Reportar resultados (por consola o generar HTML con plugins).
@@ -84,13 +84,13 @@ Se podría integrar fácilmente en una pipeline automatizada para garantizar la 
 
 TESTRUNA/
 
-├── do
+├── downloads
 
-├── cypress/
+   ├── cypress/
 
-│   └── e2e/
+   │   └── e2e/
 
-│       └── weather_api.cy.js   # Tests automatizados
+   │       └── weather_api.cy.js   # Tests automatizados
 
 ├── package.json                # Configuración de proyecto y dependencias
 
