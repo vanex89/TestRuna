@@ -32,17 +32,25 @@ Se realizaron las siguientes configuraciones para la ejecución de pruebas autom
 Desde Visual Studio Code se debe observar la siguiente estructura:
 
 **Nombre de Carpeta creada**
+
        cypress
+
            downloads
+
            e2e
+
               Test.cy.js
+
            fixtures
+
            support
 
        node_modules
+
        cypress.config.j
+
        package-lock.json
+
        package.json
        
-
 En el archivo **Test.cy.js** se agregarían los scripts de la prueba.
