@@ -11,11 +11,11 @@ Se elegió Cypress porque funciona tanto para validar backend así como también
 
 **2. Demostración de las pruebas automatizadas**
 
-![Texto alternativo](./imagenes/Climaporciudad.png)
+![Texto alternativo](./Imagenes/Climaporciudad.png)
 
 
-![Texto alternativo](./imagenes/Climaporcoordenadas.png)
+![Texto alternativo](./Imagenes/Climaporcoordenadas.png)
 
 
-![Texto alternativo](./imagenes/Ciudadivalida.png)
+![Texto alternativo](./Imagenes/Ciudadivalida.png)
 
